@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:textAlignment="center">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="monospace"
+        android:text="Add Ingredients"
+        android:textSize="24sp" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView4"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginLeft="40dp"-->
+<!--        android:layout_marginTop="150dp"-->
+<!--        android:fontFamily="@font/advent_pro_semibold"-->
+<!--        android:text="Ingredient1"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textSize="24sp" />-->
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="150dp"
+        android:fontFamily="monospace"
+        android:text="Ingredients"
+        android:textAlignment="center"
+        android:textSize="24sp">
+
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="135dp"
+        android:contentDescription="@string/appbar_scrolling_view_behavior"
+        android:src="@drawable/plus">
+
+    </ImageButton>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="650dp"
+        android:clickable="true"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:text="BACK"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="650dp"
+        android:clickable="true"
+        android:text="SAVE AND CONTINUE"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</RelativeLayout>
